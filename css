@@ -1,0 +1,186 @@
+.bg {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 240, 255, 0.72),
+    rgba(0, 102, 255, 0.62)
+  );
+  width: 1440px;
+  height: 1024px;
+}
+.contentInner,
+.frameChild {
+  position: absolute;
+  top: -18px;
+  left: 113px;
+  background-color: var(--color-gainsboro);
+  width: 100px;
+  height: 100px;
+}
+.contentInner {
+  top: 845px;
+  left: 277px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  width: 213px;
+  height: 47px;
+  overflow: hidden;
+}
+.learnMore {
+  position: absolute;
+  top: 852px;
+  left: 286px;
+  font-weight: 800;
+  color: var(--color-cornflowerblue);
+  display: inline-block;
+  width: 350px;
+  height: 89px;
+}
+.contentChild {
+  position: absolute;
+  top: 845px;
+  left: 29px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  width: 206px;
+  height: 47px;
+  overflow: hidden;
+}
+.removebgPreview1Icon {
+  position: absolute;
+  top: 76px;
+  left: 919px;
+  width: 516px;
+  height: 538px;
+  object-fit: cover;
+}
+.contentItem {
+  position: absolute;
+  top: 127px;
+  left: 27px;
+  background-color: #fffefe;
+  width: 1315px;
+  height: 104px;
+}
+.removebgPreview1Icon1 {
+  position: absolute;
+  top: 263px;
+  left: 627px;
+  width: 813px;
+  height: 618px;
+  object-fit: cover;
+}
+.levelUpYour,
+.maximizeToYour {
+  position: absolute;
+  display: inline-block;
+}
+.maximizeToYour {
+  top: 269px;
+  left: 49.33px;
+  font-size: 100px;
+  font-weight: 800;
+  color: var(--color-white);
+  width: 635px;
+  height: 641px;
+}
+.levelUpYour {
+  top: 663px;
+  left: 29px;
+  font-size: 60px;
+  font-weight: 600;
+  color: #0500ff;
+  width: 598px;
+  height: 218px;
+  backdrop-filter: blur(4px);
+  mix-blend-mode: normal;
+}
+.about,
+.about1,
+.contact,
+.help {
+  position: absolute;
+  top: 147px;
+  left: 939px;
+  display: none;
+  font-weight: 700;
+  width: 192px;
+  height: 57px;
+}
+.about1,
+.contact,
+.help {
+  top: 160px;
+  left: 904px;
+  display: inline-block;
+}
+.contact,
+.help {
+  top: 159px;
+  left: 1034px;
+  width: 174px;
+}
+.help {
+  top: 160px;
+  left: 1208px;
+  width: 192px;
+  height: 47px;
+}
+.whatsappImage20230921At2Icon {
+  position: absolute;
+  top: 89px;
+  left: 21px;
+  width: 269px;
+  height: 174px;
+  object-fit: cover;
+}
+.rectangleDiv {
+  top: 818px;
+  left: 64px;
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0) 99.98%,
+    rgba(217, 217, 217, 0) 99.99%,
+    #008eb1
+  );
+  width: 220px;
+  height: 72px;
+  display: none;
+}
+.content,
+.login,
+.rectangleDiv {
+  position: absolute;
+}
+.login {
+  top: 852px;
+  left: 84px;
+  font-weight: 800;
+  color: var(--color-cornflowerblue);
+  display: inline-block;
+  width: 244px;
+  height: 73px;
+}
+.content {
+  top: -76px;
+  left: 0;
+  width: 1440px;
+  height: 1100px;
+}
+.anonymus {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 240, 255, 0.72),
+    rgba(0, 102, 255, 0.62)
+  );
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
